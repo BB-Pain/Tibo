@@ -1,0 +1,6 @@
+def ajoutLivre(dicoLivre, listeBibliothèque):
+    listeBibliothèque.append(dicoLivre)
+    return listeBibliothèque
+listeBibliothèque={}
+listeBibliothèque=ajoutLivre(dicoLivre, listeBibliothèque)
+print(listeBibliothèque)
